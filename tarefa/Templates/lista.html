@@ -1,0 +1,11 @@
+<h1>Todo App Django</h1>
+<form action="" method="post"> {% csrf_token %}
+    <p>{{form.as_p}}</p>
+    <button type="submit">Enviar</button>
+
+</form>
+{%for conteudo in conteudos%}
+<p>{{conteudo.conteudo}}</p>{{conteudo.data}}
+
+
+{% endfor %}
