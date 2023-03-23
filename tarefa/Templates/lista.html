@@ -6,6 +6,9 @@
 </form>
 {%for conteudo in conteudos%}
 <p>{{conteudo.conteudo}}</p>{{conteudo.data}}
+<form action="../tarefas/delete/{{conteudo.id}}" method="post"> {% csrf_token %}
+    <button type="submit">Deletar</button>
 
+</form>
 
 {% endfor %}
