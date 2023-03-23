@@ -1,4 +1,6 @@
 # tododjango
+![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=Python&logoColor=007396)
+  ![Django](https://img.shields.io/badge/-Django-333333?style=flat&logo=Django&logoColor=007396)
 
 App to-do usando django e bootstrap
 
